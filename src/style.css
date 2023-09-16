@@ -15,8 +15,9 @@ body {
     border: none;
 }
 
-.tabela {
+.painel {
     width: 100%;
     border: 2px;
-     height: 800px;
+    border-color: black;
+    height: 800px;
 }
