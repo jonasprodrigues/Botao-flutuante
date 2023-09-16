@@ -1,32 +1,22 @@
 body {
     font-family: sans-serif;
-    background-color: #9CC0FA;
+    background-color: yellow;
     margin: 0 auto;
 }
 
-#svg-map {
+.botao-flutuante {
     cursor: pointer;
-}
-
-#svg-map .circle, #svg-map path {
-    fill: #90ee90;
-}
-
-#svg-map a:hover .circle, #svg-map a:hover path {
-    fill: #78866b !important;
-}
-
-#container {
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
-}
-
-#text {
-    width: 350px;
-    height: auto;
-    padding-left: 100px;
-    text-align: right;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: aqua;
     color: black;
-    text-shadow: 1px 1px 1px #FFFFFF;
+    padding: 15px 20px;
+    border: none;
+}
+
+.tabela {
+    width: 100%;
+    border: 2px;
+     height: 800px;
 }
