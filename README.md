@@ -12,4 +12,4 @@ https://www.youtube.com/watch?v=CaS0IsRaQsk
 https://www.w3.org/TR/SVG/eltindex.html
 
 
-Andamento: -------| 50%
+Andamento: -------| 70%

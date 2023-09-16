@@ -5,6 +5,12 @@ body {
     height: 2000px;
 }
 
+.cabecalho{
+    height: 30px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
 .botao-whatsapp {
     cursor: pointer;
     position: fixed;
