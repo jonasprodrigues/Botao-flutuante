@@ -2,13 +2,14 @@ body {
     font-family: sans-serif;
     background-color: yellow;
     margin: 0 auto;
+    height: 2000px;
 }
 
-.botao-flutuante {
+.botao-whatsapp {
     cursor: pointer;
     position: fixed;
-    bottom: 200px;
-    right: 200px;
+    bottom: 20px;
+    left: 20px;
     
     color: black;
     padding: 15px 20px;
@@ -16,6 +17,28 @@ body {
     width: 200px;
     height: 80px;
     
+}
+
+.botao-whatsapp:hover {
+    transform: scale(1.2);
+}
+
+.botao-topo {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    width: 80px;
+    height: 80px;
+    
+}
+
+.botao-topo:hover {
+    transform: scale(1.2);
 }
 
 .painel {

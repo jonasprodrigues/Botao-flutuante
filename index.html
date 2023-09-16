@@ -16,16 +16,43 @@
         
     </div>
 
-    <!-- BOTAO FLLUTUANTE-->
+    <!-- BOTAO WHATSAPP-->
     <div> 
         <a href="teste.htm">
-
-            <img src="src/whatsaap.png" class="botao-flutuante">
+            <img src="src/whatsaap.png" class="botao-whatsapp">
         </a>
+    </div>
 
+    <!-- BOTAO TOPO-->
+    <div> 
+        <a>
+            <img src="src/topo.png" class="botao-topo" onclick="voltarAoTopo()">
+        </a>
+    </div>
 
 <!-- 
+-----TESTES-----
+
 -->
-    </div>
+
+    <script>
+        // Função para rolar suavemente ao topo da página
+        function voltarAoTopo() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // Mostrar o botão de voltar ao topo quando o usuário rolar para baixo
+        window.onscroll = function() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.querySelector('.botao-topo').style.display = 'block';
+            } else {
+                document.querySelector('.botao-topo').style.display = 'none';
+            }
+        };
+    </script>
+
 </body>
 </html>
