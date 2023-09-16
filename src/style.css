@@ -7,12 +7,15 @@ body {
 .botao-flutuante {
     cursor: pointer;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: aqua;
+    bottom: 200px;
+    right: 200px;
+    
     color: black;
     padding: 15px 20px;
     border: none;
+    width: 200px;
+    height: 80px;
+    
 }
 
 .painel {
