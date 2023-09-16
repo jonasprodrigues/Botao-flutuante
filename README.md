@@ -11,4 +11,5 @@ Fontes de pesquisa:
 https://www.youtube.com/watch?v=CaS0IsRaQsk
 https://www.w3.org/TR/SVG/eltindex.html
 
-Andamento: -------| 20%
+
+Andamento: -------| 50%
